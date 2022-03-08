@@ -44,7 +44,11 @@ const HomeScreen = props => {
 };
 
 const styles = StyleSheet.create({
-  centered: {flex: 1, justifyContent: 'center', alignItems: 'center'},
+  centered: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
 
 export default HomeScreen;
